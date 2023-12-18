@@ -116,7 +116,6 @@ export function Footer() {
 
 export function FAQ(props) {
   return (
-    <div className={props.accordionStyle}>
       <ChakraProvider>
         <section id="faq">
           <h1>FAQ (คำถามที่พบบ่อย)</h1>
@@ -233,6 +232,5 @@ export function FAQ(props) {
           </Accordion>
         </section>
       </ChakraProvider>
-    </div>
   );
 }
